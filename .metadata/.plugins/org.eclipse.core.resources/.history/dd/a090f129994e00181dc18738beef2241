@@ -1,0 +1,32 @@
+package com.javalec.robotex;
+
+public class LowRobot {
+
+	public LowRobot() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void actionWalk() {
+		System.out.println("걸을 수 있다.");
+	}
+	
+	public void actionRun() {
+		System.out.println("달릴 수 있다.");
+	}
+	
+	public void actionFly() {
+		System.out.println("날 수 없다.");
+	}
+	
+	public void actionMissile() {
+		System.out.println("미사일 쏠 수 없다.");
+	}
+	
+	public void actionKnife() {
+		System.out.println("검이 없다.");
+	}
+	
+	public void shape() {
+		System.out.println("로우로봇, 팔 다리 몸통 머리가 있다.");
+	}
+}

@@ -1,0 +1,34 @@
+package com.javalec.file;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+public class MainClass {
+	public static void main(String[] args) {
+		try {
+			
+			InputStream is = new FileInputStream("D:\\GitHub\\Java\\FileIOEx\\a.txt");
+			while(true) {
+				int i = is.read();
+				
+				System.out.println("데이터 : " + i);
+				if(i == -1) break;
+			}
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println(e.getMessage());
+		}
+		
+		try {
+			InputStream os = new FileInputStream("D:\\GitHub\\Java\\FileIOEx\\a.txt");
+			String str = "오늘 날씨는 아주 좋습니다.";
+			byte[] bs = str.getBytes();
+			os.write(bs);
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println(e.getMessage());
+		}
+	}
+}

@@ -1,0 +1,16 @@
+package com.javalec.makecar;
+
+public class StarCarLowGrade extends StarCar{
+
+	private int tax = 1000;
+	public StarCarLowGrade(String color, String tire, int displacement, String handle) {
+		// TODO Auto-generated constructor stub
+		super(color,tire,displacement,handle);
+	}
+	
+	@Override
+	public void getSpec() {
+		// TODO Auto-generated method stub
+		
+	}
+}

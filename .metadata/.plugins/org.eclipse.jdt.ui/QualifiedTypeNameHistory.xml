@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.javalec.calex.CalculationEx"/>
+    <fullyQualifiedTypeName name="com.javalec.children.FirstChild"/>
+    <fullyQualifiedTypeName name="com.javalec.papa.PapaPouch"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.javalec.manager.StudentManager"/>
+    <fullyQualifiedTypeName name="com.javalec.menu.ChildMenu"/>
+    <fullyQualifiedTypeName name="com.javalec.store.HeadQuarterStore"/>
+    <fullyQualifiedTypeName name="com.javalec.lunch.LunchMenu"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.javalec.makecar.StarCar"/>
+    <fullyQualifiedTypeName name="com.javalec.makecar.StarCarLowGrade"/>
+    <fullyQualifiedTypeName name="com.javalec.interfacephone.IFunction"/>
+    <fullyQualifiedTypeName name="com.javalec.toy.IMoveArmLeg"/>
+    <fullyQualifiedTypeName name="com.javalec.toy.ILight"/>
+    <fullyQualifiedTypeName name="com.javalec.toy.PoohToy"/>
+    <fullyQualifiedTypeName name="com.javalec.toy.MazingerToy"/>
+    <fullyQualifiedTypeName name="com.javalec.toy.IMissile"/>
+    <fullyQualifiedTypeName name="com.javalec.toy.AirPlaneToy"/>
+</qualifiedTypeNameHistroy>

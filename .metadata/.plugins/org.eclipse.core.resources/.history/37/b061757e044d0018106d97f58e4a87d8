@@ -1,0 +1,9 @@
+package com.javalec.toy;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		IToy pooh = new PoohToy();
+		pooh.canLight();
+	}
+}

@@ -1,0 +1,11 @@
+package com.javalec.interfacephone;
+
+public class MainClass {
+
+	IFunction aPhone = new APhone();
+	IFunction bPhone = new BPhone();
+	IFunction cPhone = new CPhone();
+	
+	IFunction[] iFunctions = {aPhone, bPhone, cPhone};
+	
+}

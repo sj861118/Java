@@ -1,0 +1,18 @@
+package com.javalec.voting;
+
+import java.util.Random;
+
+public class VoteThread implements Runnable{
+
+	int targetNum = 100;
+	int sum = 0;
+	Random randome = new Random();
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		StringBuffer sb = new StringBuffer();
+		
+	}
+
+}

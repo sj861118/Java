@@ -1,0 +1,10 @@
+package com.javalec.robotex;
+
+
+public class SuperRobot extends Robot {
+
+	public SuperRobot() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

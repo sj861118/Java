@@ -1,0 +1,15 @@
+package com.javalec.lunch;
+
+public class Child2 {
+	
+	public Child2(int rice, int bulgogi, int milk, int banana, int almond) {
+		// TODO Auto-generated constructor stub
+		super(rice, bulgogi, milk, banana, almond);
+	}
+	
+	@Override
+	public int calculating() {
+		// TODO Auto-generated method stub
+		return rice + bulgogi + banana;
+	}
+}

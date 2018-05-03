@@ -1,0 +1,8 @@
+package com.javalec.list;
+
+public class MainClass {
+	public static void main(String[] args) {
+		ArrayList<String> arrList = new ArrayList<String>();
+		
+	}
+}

@@ -1,0 +1,23 @@
+package com.javalec.interfacephone;
+
+public class APhone implements IFunction{
+
+	@Override
+	public void callSenderReceive() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void canLTE() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void tvRemoteController() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

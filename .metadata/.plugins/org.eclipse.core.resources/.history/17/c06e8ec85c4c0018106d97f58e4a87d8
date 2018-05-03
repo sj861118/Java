@@ -1,0 +1,26 @@
+package com.javalec.manager;
+
+import java.util.ArrayList;
+
+public class StudentManager {
+
+	ArrayList<Student> students = new ArrayList<Student>();
+	StudentExpel studentExpel = new StudentExpel();
+	
+	public static void main(String[] args) {
+		StudentManager studentManager = new StudentManager();
+		
+		studentManager.addStudent("È«±æµ¿", 22, 20123412,"¿¬±Ø¿µÈ­");
+		studentManager.addStudent("È«±æ¼ø", 20, 20145481,"¼öÇĞ°ú");
+		studentManager.addStudent("ÀÌÀº°æ", 21, 20131432,"±¹¹®°ú");
+		studentManager.addStudent("±èÃ¶¼ö", 23, 20117864,"Ã¼À°°ú");
+		studentManager.addStudent("±è¼øÈñ", 25, 20098980,"¹«¿ë°ú");
+		
+		System.out.println(studentManager.students.get(1).getAge());
+	}
+	
+	private void addStudent(String name, int age, int studentNum, String major) {
+		students.add(new Student(name, age, studentNum, major));
+		System.out.println(name + "ÇĞ»ı Á¤º¸ ÀÔ·Â ¼º°ø!!");
+	}
+}

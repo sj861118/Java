@@ -1,0 +1,11 @@
+package com.javalec.toy;
+
+public class PoohToy implements IMoveArmLeg{
+
+	@Override
+	public void canMoveArmLeg() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

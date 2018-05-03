@@ -1,0 +1,26 @@
+package com.javalec.toy;
+
+public class MazingerToy implements IMissile, IMoveArmLeg{
+
+	public MazingerToy() {
+		// TODO Auto-generated constructor stub
+		System.out.println("마징가 입니다");
+		canMoveArmLeg();
+		canMissile();
+		System.out.println("=============================");
+	}
+	
+	@Override
+	public void canMoveArmLeg() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void canMissile() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

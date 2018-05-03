@@ -1,0 +1,9 @@
+package com.javalec.thread;
+
+public class MainClass {
+
+	ThreadTest threadTest = new ThreadTest();
+	
+	Thread thread = new Thread(threadTest, "test1");
+	
+}

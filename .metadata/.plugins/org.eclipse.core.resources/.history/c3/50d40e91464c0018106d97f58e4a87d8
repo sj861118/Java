@@ -1,0 +1,15 @@
+package com.javalec.calex;
+
+import java.util.Scanner;
+
+public class CalculationEx {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int i = scanner.nextInt();
+		System.out.println("adf");
+		System.out.println("i%3=" + (i%3));
+		
+		
+	}
+}

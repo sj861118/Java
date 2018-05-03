@@ -1,0 +1,11 @@
+package com.javalec.lunch;
+
+public class Child1 {
+	
+	public Child1(int rice, int bulgogi, int milk, int banana, int almond) {
+		// TODO Auto-generated constructor stub
+		super(rice, bulgogi, milk, banana, almond);
+	}
+	
+	
+}

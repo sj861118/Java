@@ -1,0 +1,6 @@
+package com.javalec.makecar;
+
+public class MainClass {
+
+	StarCar starCarLowGrad = new StarCarLowGrade(CarSpec.COLOR_RED, CarSpec.TIRE_NORMAL, CarSpec.DISPLACEMENT_2000, CarSpec.HANDLE_NORMAL);
+}

@@ -1,0 +1,7 @@
+package com.javalec.store;
+
+public class StoreNum1 extends HeadQuarterStore{
+	public StoreNum1() {
+		// TODO Auto-generated constructor stub
+	}
+}

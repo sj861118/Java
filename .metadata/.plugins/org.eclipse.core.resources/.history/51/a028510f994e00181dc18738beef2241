@@ -1,0 +1,10 @@
+package com.javalec.robotex;
+
+public class LowRobot {
+
+	public LowRobot() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

@@ -1,0 +1,23 @@
+package com.javalec.calex;
+
+import java.util.Scanner;
+
+public class CalculationEx {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("국어 점수 입력");
+		int kor = scanner.nextInt();
+		
+		System.out.println("영어 점수 입력");
+		int eng = scanner.nextInt();
+		
+		System.out.println("수학 점수 입력");
+		int math = scanner.nextInt();
+		
+		System.out.println(kor);
+		System.out.println(eng);
+		System.out.println(math1);
+		
+	}
+}

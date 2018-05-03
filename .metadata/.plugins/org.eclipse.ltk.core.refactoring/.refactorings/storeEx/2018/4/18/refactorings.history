@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.javalec.store.SotreNum2.java&apos; to &apos;StoreNum2.java&apos;&#x0D;&#x0A;- Original project: &apos;storeEx&apos;&#x0D;&#x0A;- Original element: &apos;com.javalec.store.SotreNum2.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.javalec.store.StoreNum2.java&apos;" description="Rename compilation unit &apos;SotreNum2.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.javalec.store{SotreNum2.java" name="StoreNum2.java" references="false" stamp="1525083574277" version="1.0"/>
+</session>

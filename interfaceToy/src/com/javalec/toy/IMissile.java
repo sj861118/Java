@@ -1,0 +1,5 @@
+package com.javalec.toy;
+
+public interface IMissile extends IToy {
+	void canMissile();
+}

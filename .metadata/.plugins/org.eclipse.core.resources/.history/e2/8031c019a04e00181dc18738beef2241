@@ -1,0 +1,13 @@
+package com.javalec.timeMillis;
+
+public class MainClass {
+	public static void main(String[] args) {
+		System.out.println(System.currentTimeMillis());
+		
+		long startNum = System.currentTimeMillis();
+		
+		for(int i = 0; i < 50000; i++) {
+			str = str + "A";
+		}
+	}
+}

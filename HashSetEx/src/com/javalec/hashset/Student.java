@@ -1,0 +1,32 @@
+package com.javalec.hashset;
+
+public class Student {
+	private String name;
+	private int grade;
+	
+	public Student(String name, int grade) {
+		// TODO Auto-generated constructor stub
+		this.name = name;
+		this.grade = grade;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return name + " : " + grade;
+	}
+	
+	@Override
+	public boolean equals(Object arg0) {
+		// TODO Auto-generated method stub
+		String compareValue = arg0.toString();
+		String thisValue = toString();
+		return thisValue.equals(compareValue);
+	}
+	
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return toString().hashCode();
+	}
+}

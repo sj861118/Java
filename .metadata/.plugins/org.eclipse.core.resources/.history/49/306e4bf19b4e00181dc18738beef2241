@@ -1,0 +1,12 @@
+package com.javalec.robotex;
+
+import com.javalec.robotex.inter.IFly;
+import com.javalec.robotex.inter.IKnife;
+import com.javalec.robotex.inter.IMissile;
+
+public class LowRobot extends Robot {
+	public LowRobot() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

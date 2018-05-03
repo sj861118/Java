@@ -1,0 +1,44 @@
+package com.javalec.robotex;
+
+import com.javalec.robotex.inter.IFly;
+import com.javalec.robotex.inter.IKnife;
+import com.javalec.robotex.inter.IMissile;
+
+public abstract class Robot {
+
+	IFly fly;
+	IMissile missile;
+	IKnife knife;
+	
+	public Robot() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void actionWalk() {
+		System.out.println("걸을 수 있다.");
+	}
+	
+	public void actionRun() {
+		System.out.println("달릴 수 있다.");
+	}
+	
+	public void shape() {
+		System.out.println("팔 다리 몸통 머리가 있다.");
+	}
+	
+	public abstract void actionFly();
+	public abstract void actionMissile();
+	public abstract void actionKnife();
+	
+	public void setFly(IFly fly) {
+		this.fly = fly;
+	}
+
+	public void setMissile(IMissile missile) {
+		this.missile = missile;
+	}
+
+	public void setKnife(IKnife knife) {
+		this.knife = knife;
+	}
+}

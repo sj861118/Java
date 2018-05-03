@@ -1,0 +1,22 @@
+package com.javalec.robotex;
+
+public class SuperRobot extends Robot {
+
+	public SuperRobot() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	public void actionFly() {
+		System.out.println("날 수 있다.");
+	}
+	
+	public void actionMissile() {
+		System.out.println("미사일 쏠 수 있다.");
+	}
+	
+	public void actionKnife() {
+		System.out.println("레이저 검이 있다.");
+	}
+	
+}

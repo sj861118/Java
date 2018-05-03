@@ -1,0 +1,16 @@
+package com.javalec.robotex;
+
+import com.javalec.robotex.inter.FlyYes;
+import com.javalec.robotex.inter.IFly;
+import com.javalec.robotex.inter.IKnife;
+import com.javalec.robotex.inter.IMissile;
+import com.javalec.robotex.inter.KnifeLazer;
+import com.javalec.robotex.inter.MissileYes;
+
+public class SuperRobot extends Robot {
+
+	public SuperRobot() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.javalec.menu;
+
+public class ChildMenu extends ParentMenu {
+	public ChildMenu() {
+		
+	}
+	
+	public void makeBeefChungGukJang() {
+		System.out.println("쇠고기 청국장");
+	}
+
+}

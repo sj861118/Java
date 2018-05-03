@@ -1,0 +1,5 @@
+package com.javalec.toy;
+
+public class MazingerToy extends Toy{
+
+}

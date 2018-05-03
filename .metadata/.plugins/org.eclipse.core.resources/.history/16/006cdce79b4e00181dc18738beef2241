@@ -1,0 +1,45 @@
+package com.javalec.robotex;
+
+import com.javalec.robotex.inter.IFly;
+import com.javalec.robotex.inter.IKnife;
+import com.javalec.robotex.inter.IMissile;
+
+public class LowRobot extends Robot {
+
+	IFly fly;
+	IMissile missile;
+	IKnife knife;
+	
+	public LowRobot() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	public void actionFly() {
+		System.out.println("날 수 없다.");
+	}
+	
+	@Override
+	public void actionMissile() {
+		System.out.println("미사일 쏠 수 없다.");
+	}
+	
+	@Override
+	public void actionKnife() {
+		System.out.println("검이 없다.");
+	}
+
+	public void setFly(IFly fly) {
+		this.fly = fly;
+	}
+
+	public void setMissile(IMissile missile) {
+		this.missile = missile;
+	}
+
+	public void setKnife(IKnife knife) {
+		this.knife = knife;
+	}
+	
+	
+}

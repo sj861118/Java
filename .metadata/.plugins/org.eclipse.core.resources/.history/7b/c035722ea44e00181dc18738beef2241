@@ -1,0 +1,11 @@
+package com.javalec.map;
+
+import java.util.HashMap;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		HashMap<Integer, String> hashMap = new HashMap<Integer, String>();
+		
+	}
+}

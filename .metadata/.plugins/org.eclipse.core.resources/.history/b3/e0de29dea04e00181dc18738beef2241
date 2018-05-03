@@ -1,0 +1,8 @@
+package com.javalec.timerEx;
+
+public class TimerEx {
+	
+	public TimerEx() throws InterruptedException {
+		// TODO Auto-generated constructor stub
+	}
+}

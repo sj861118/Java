@@ -1,0 +1,11 @@
+package com.javalec.thread;
+
+public class MainClass {
+
+	ThreadTest threadTest = new ThreadTest();
+	
+	Thread t = new Thread(threadTest, "A");	
+	
+	System.out.println("test");
+	
+}

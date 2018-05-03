@@ -1,0 +1,62 @@
+package com.javalec.thread;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		ThreadTestSync ttt = new ThreadTestSync();
+		
+		Thread tt0 = new Thread(ttt, "A");
+		Thread tt1 = new Thread(ttt, "B");
+		
+		tt0.start();
+		tt1.start();
+		
+		/*
+		ThreadTest threadTest = new ThreadTest();
+		
+		Thread t = new Thread(threadTest, "A");
+		t.start();
+		
+		System.out.println(Thread.currentThread().getName());
+		
+		while(t.isAlive())
+		{
+			;
+		}
+		System.out.println("Thread2");
+		ThreadTest2 threadTest2 = new ThreadTest2();
+		threadTest2.setName("B");
+		threadTest2.start();
+		
+		while(threadTest2.isAlive())
+		{
+			;
+		}
+		
+		//object 1, thread n
+		ThreadTest3 threadTest3 = new ThreadTest3();
+		
+		Thread t3 = new Thread(threadTest3, "A");
+		Thread t4 = new Thread(threadTest3, "B");
+		
+		t3.start();
+		t4.start();
+		
+		while(t3.isAlive() || t4.isAlive())
+		{
+			;
+		}
+		
+		//object 1, thread 1
+		ThreadTest3 threadTest4 = new ThreadTest3();
+		ThreadTest3 threadTest5 = new ThreadTest3();
+		
+		Thread t5 = new Thread(threadTest4, "A");
+		Thread t6 = new Thread(threadTest5, "B");
+		
+		t5.start();
+		t6.start();
+		*/
+	}	
+	
+}
